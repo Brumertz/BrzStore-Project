@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "VYWLb4TbAvmfFjdMjhG/0T0+7xQGV0U21Yyp2dcWJ2w=",
+  "Source": "BrzSalesApi",
+  "BasePath": "_content/BrzSalesApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

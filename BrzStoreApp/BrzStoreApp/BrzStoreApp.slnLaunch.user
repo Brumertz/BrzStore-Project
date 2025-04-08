@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CarService\\BrzSalesApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BrzStore\\BrzStore.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

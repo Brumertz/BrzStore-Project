@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|c:\\users\\brumertztafe\\desktop\\sensing4u sensor management mvp\\cmvunit\\1pjapi\\brzstoreapp\\brzstoreapp\\brzstore\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|solutionrelative:brzstore\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|c:\\users\\brumertztafe\\desktop\\sensing4u sensor management mvp\\cmvunit\\1pjapi\\brzstoreapp\\brzstoreapp\\brzstore\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|solutionrelative:brzstore\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|c:\\users\\brumertztafe\\desktop\\sensing4u sensor management mvp\\cmvunit\\1pjapi\\brzstoreapp\\brzstoreapp\\brzstore\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|solutionrelative:brzstore\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|c:\\users\\brumertztafe\\desktop\\sensing4u sensor management mvp\\cmvunit\\1pjapi\\brzstoreapp\\brzstoreapp\\brzstore\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|solutionrelative:brzstore\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|c:\\users\\brumertztafe\\desktop\\sensing4u sensor management mvp\\cmvunit\\1pjapi\\brzstoreapp\\brzstoreapp\\brzstore\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|solutionrelative:brzstore\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|c:\\users\\brumertztafe\\desktop\\sensing4u sensor management mvp\\cmvunit\\1pjapi\\brzstoreapp\\brzstoreapp\\brzstore\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|solutionrelative:brzstore\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|c:\\users\\brumertztafe\\desktop\\sensing4u sensor management mvp\\cmvunit\\1pjapi\\brzstoreapp\\brzstoreapp\\brzstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF6A2111-9591-47CA-948D-2291D540FFE6}|BrzStore\\BrzStore.csproj|solutionrelative:brzstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BrzStore\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "BrzStore\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T06:47:32.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BrzStore\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "BrzStore\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T06:47:01.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BrzStore\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Services\\UserService.cs",
+              "RelativeToolTip": "BrzStore\\Services\\UserService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:15:52.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BrzStore\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Models\\User.cs",
+              "RelativeToolTip": "BrzStore\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:16:45.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "BrzStore\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Services\\IUserService.cs",
+              "RelativeToolTip": "BrzStore\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:14:34.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "BrzStore\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Pages\\Account\\Login.cshtml.cs*",
+              "RelativeToolTip": "BrzStore\\Pages\\Account\\Login.cshtml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:14:02.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "BrzStore\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\Pages\\Account\\Register.cshtml.cs*",
+              "RelativeToolTip": "BrzStore\\Pages\\Account\\Register.cshtml.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:02:40.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
