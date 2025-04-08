@@ -62,3 +62,43 @@ C:\Users\BrumertzTafe\Desktop\Sensing4U Sensor Management MVP\CMVUnit\1pjApi\Brz
 C:\Users\BrumertzTafe\Desktop\Sensing4U Sensor Management MVP\CMVUnit\1pjApi\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\BrumertzTafe\Desktop\Sensing4U Sensor Management MVP\CMVUnit\1pjApi\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\BrumertzTafe\Desktop\Sensing4U Sensor Management MVP\CMVUnit\1pjApi\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\CarService\obj\Debug\net9.0\staticwebassets.build.json

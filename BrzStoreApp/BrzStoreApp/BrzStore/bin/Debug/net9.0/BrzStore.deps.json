@@ -9,7 +9,8 @@
       "BrzStore/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
-          "BrzSalesApi": "1.0.0"
+          "BrzSalesApi": "1.0.0",
+          "bootstrap": "5.3.3"
         },
         "runtime": {
           "BrzStore.dll": {}
@@ -56,6 +57,7 @@
           }
         }
       },
+      "bootstrap/5.3.3": {},
       "DnsClient/1.6.1": {
         "dependencies": {
           "Microsoft.Win32.Registry": "5.0.0"
@@ -2125,6 +2127,13 @@
       "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
+    },
+    "bootstrap/5.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iQohLXwneNPDyW4x24mKQ90qGwT5WTtNl3KybL0koTluJPjKYxFCU/NTLHsJiWR2n7VmnwcpAgr8TR42KNmPOg==",
+      "path": "bootstrap/5.3.3",
+      "hashPath": "bootstrap.5.3.3.nupkg.sha512"
     },
     "DnsClient/1.6.1": {
       "type": "package",

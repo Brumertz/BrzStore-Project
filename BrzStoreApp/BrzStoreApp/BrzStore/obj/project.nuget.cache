@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "AfuIq8G5zJo=",
+  "dgSpecHash": "a00+JO7xSDU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\BrzStore\\BrzStore.csproj",
+  "projectFilePath": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzStoreApp\\BrzStoreApp\\BrzStore\\BrzStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BrumertzTafe\\.nuget\\packages\\aspnetcore.identity.mongodbcore\\6.0.0\\aspnetcore.identity.mongodbcore.6.0.0.nupkg.sha512",
     "C:\\Users\\BrumertzTafe\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\BrumertzTafe\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\BrumertzTafe\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\BrumertzTafe\\.nuget\\packages\\bootstrap\\5.3.3\\bootstrap.5.3.3.nupkg.sha512",
     "C:\\Users\\BrumertzTafe\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\BrumertzTafe\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\BrumertzTafe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

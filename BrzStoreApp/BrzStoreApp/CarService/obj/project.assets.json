@@ -8044,11 +8044,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\CarService\\BrzSalesApi.csproj",
+      "projectUniqueName": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzStoreApp\\BrzStoreApp\\CarService\\BrzSalesApi.csproj",
       "projectName": "BrzSalesApi",
-      "projectPath": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\CarService\\BrzSalesApi.csproj",
+      "projectPath": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzStoreApp\\BrzStoreApp\\CarService\\BrzSalesApi.csproj",
       "packagesPath": "C:\\Users\\BrumertzTafe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BrumertzTafe\\Desktop\\Sensing4U Sensor Management MVP\\CMVUnit\\1pjApi\\BrzStoreApp\\BrzStoreApp\\CarService\\obj\\",
+      "outputPath": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzStoreApp\\BrzStoreApp\\CarService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

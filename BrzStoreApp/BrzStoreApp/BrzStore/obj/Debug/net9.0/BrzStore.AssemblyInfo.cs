@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrzStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f0736b504bd6366bef8c432658fba5e1e70ce1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dce2f0d3ba769ccad29effef419379b8baf515e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrzStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrzStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
