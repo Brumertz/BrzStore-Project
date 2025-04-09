@@ -1,6 +1,0 @@
-C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\BrzStore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.rtl.css
-C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\BrzStore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.rtl.min.css.map
-C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\BrzStore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.min.css.map
-C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\BrzStore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.rtl.css.map
-C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\BrzStore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.rtl.min.css
-C:\Users\BrumertzTafe\Documents\BrzStore\1pjApi\BrzStore-Project\BrzStoreApp\BrzStoreApp\BrzStore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.min.css
