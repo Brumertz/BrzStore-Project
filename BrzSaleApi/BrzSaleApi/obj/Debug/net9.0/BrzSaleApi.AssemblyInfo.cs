@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrzSaleApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ad53dfea849633ab2168672331fbd521a08622e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7974fc077eb150f4c048e1814f8f3da2a4b40a11")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrzSaleApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrzSaleApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

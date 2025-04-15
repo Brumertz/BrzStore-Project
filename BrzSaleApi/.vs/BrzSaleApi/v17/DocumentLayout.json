@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsaleapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|solutionrelative:brzsaleapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsaleapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|solutionrelative:brzsaleapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsaleapi\\brzsaleapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|solutionrelative:brzsaleapi\\brzsaleapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsaleapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|solutionrelative:brzsaleapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsaleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|solutionrelative:brzsaleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsaleapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|solutionrelative:brzsaleapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsaleapi\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|solutionrelative:brzsaleapi\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsaleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|solutionrelative:brzsaleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsaleapi\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|solutionrelative:brzsaleapi\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,102 +42,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "BrzSaleApi\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Services\\ProductService.cs",
-              "RelativeToolTip": "BrzSaleApi\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T08:20:24.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "BrzSaleApi\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "BrzSaleApi\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAWwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:28:05.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\appsettings.json",
-              "RelativeDocumentMoniker": "BrzSaleApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\appsettings.json",
-              "RelativeToolTip": "BrzSaleApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T06:37:25.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "BrzSaleApi\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Models\\Product.cs",
-              "RelativeToolTip": "BrzSaleApi\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:28:43.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "BrzSaleApi\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Models\\Category.cs",
-              "RelativeToolTip": "BrzSaleApi\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:26:34.269Z",
+              "Title": "BrzSaleApi",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\BrzSaleApi.csproj",
+              "RelativeDocumentMoniker": "BrzSaleApi\\BrzSaleApi.csproj",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\BrzSaleApi.csproj",
+              "RelativeToolTip": "BrzSaleApi\\BrzSaleApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-15T14:58:27.196Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MongoDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Data\\MongoDbContext.cs",
-              "RelativeDocumentMoniker": "BrzSaleApi\\Data\\MongoDbContext.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Data\\MongoDbContext.cs",
-              "RelativeToolTip": "BrzSaleApi\\Data\\MongoDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:25:34.936Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Program.cs",
-              "RelativeDocumentMoniker": "BrzSaleApi\\Program.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Program.cs",
-              "RelativeToolTip": "BrzSaleApi\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:20:41.387Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "BrzSaleWebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\appsettings.json",
+              "RelativeToolTip": "BrzSaleWebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T12:45:04.732Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MongoDBSettings.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Settings\\MongoDBSettings.cs",
-              "RelativeDocumentMoniker": "BrzSaleApi\\Settings\\MongoDBSettings.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\Settings\\MongoDBSettings.cs",
-              "RelativeToolTip": "BrzSaleApi\\Settings\\MongoDBSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "BrzSaleWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Program.cs",
+              "RelativeToolTip": "BrzSaleWebApp\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAmwEoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T08:45:53.692Z"
+              "WhenOpened": "2025-04-15T12:43:25.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "BrzSaleWebApp\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "BrzSaleWebApp\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:42:14.612Z",
+              "EditorCaption": ""
             }
           ]
         }
