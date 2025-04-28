@@ -1,8 +1,8 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@using BrzSaleWebApp.Areas.Identity.Data
+@using BrzSaleWebApp.Models;
 
-@inject SignInManager<BrzSaleWebAppUser> SignInManager
-@inject UserManager<BrzSaleWebAppUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))

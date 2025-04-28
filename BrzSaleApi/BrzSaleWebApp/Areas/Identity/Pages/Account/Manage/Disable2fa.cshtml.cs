@@ -4,7 +4,7 @@
 
 using System;
 using System.Threading.Tasks;
-using BrzSaleWebApp.Areas.Identity.Data;
+using BrzSaleWebApp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -14,11 +14,11 @@ namespace BrzSaleWebApp.Areas.Identity.Pages.Account.Manage
 {
     public class Disable2faModel : PageModel
     {
-        private readonly UserManager<BrzSaleWebAppUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly ILogger<Disable2faModel> _logger;
 
         public Disable2faModel(
-            UserManager<BrzSaleWebAppUser> userManager,
+            UserManager<ApplicationUser> userManager,
             ILogger<Disable2faModel> logger)
         {
             _userManager = userManager;

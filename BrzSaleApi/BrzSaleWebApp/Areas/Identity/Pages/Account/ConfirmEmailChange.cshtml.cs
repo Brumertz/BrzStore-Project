@@ -5,8 +5,9 @@
 using System;
 using System.Text;
 using System.Threading.Tasks;
+using BrzSaleWebApp.Models;
 using Microsoft.AspNetCore.Authorization;
-using BrzSaleWebApp.Areas.Identity.Data;
+
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -16,10 +17,10 @@ namespace BrzSaleWebApp.Areas.Identity.Pages.Account
 {
     public class ConfirmEmailChangeModel : PageModel
     {
-        private readonly UserManager<BrzSaleWebAppUser> _userManager;
-        private readonly SignInManager<BrzSaleWebAppUser> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
-        public ConfirmEmailChangeModel(UserManager<BrzSaleWebAppUser> userManager, SignInManager<BrzSaleWebAppUser> signInManager)
+        public ConfirmEmailChangeModel(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;

@@ -9,21 +9,22 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using BrzSaleWebApp.Areas.Identity.Data;
+
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
+using BrzSaleWebApp.Models;
 
 namespace BrzSaleWebApp.Areas.Identity.Pages.Account
 {
     public class LoginWith2faModel : PageModel
     {
-        private readonly SignInManager<BrzSaleWebAppUser> _signInManager;
-        private readonly UserManager<BrzSaleWebAppUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly ILogger<LoginWith2faModel> _logger;
 
         public LoginWith2faModel(
-            SignInManager<BrzSaleWebAppUser> signInManager,
-            UserManager<BrzSaleWebAppUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
+            UserManager<ApplicationUser> userManager,
             ILogger<LoginWith2faModel> logger)
         {
             _signInManager = signInManager;

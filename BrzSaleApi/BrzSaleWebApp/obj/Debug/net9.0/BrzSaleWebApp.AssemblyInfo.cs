@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrzSaleWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7974fc077eb150f4c048e1814f8f3da2a4b40a11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c16c6d0c5bb08bd9a38df256611306e1a10580d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrzSaleWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrzSaleWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,9 +1,12 @@
 using BrzSaleApi.Settings;
-using BrzSaleApi.Data; // <- para usar MongoDbContext
+using BrzSaleApi.Data;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using System.Text.Json;
 using MongoDB.Driver;
 using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -63,8 +66,23 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod();
     });
 });
+// ? SECURITY IMPLEMENTATION — JWT Authentication
+var jwtKey = Encoding.UTF8.GetBytes("YourSuperSecureJWTSecretKey"); // ? Change this to a secure key!
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(jwtKey)
+        };
+    });
 
 var app = builder.Build();
+
 
 // Middleware
 if (app.Environment.IsDevelopment())

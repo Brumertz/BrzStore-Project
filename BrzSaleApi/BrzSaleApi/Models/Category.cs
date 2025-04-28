@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 public class Category
 {
     [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)] // Converts string to ObjectId
+     // Converts string to ObjectId
     public string Id { get; set; } = string.Empty;
 
     [Required]

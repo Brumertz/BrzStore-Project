@@ -6,8 +6,9 @@ using System;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BrzSaleWebApp.Models;
 using Microsoft.AspNetCore.Authorization;
-using BrzSaleWebApp.Areas.Identity.Data;
+
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -17,9 +18,9 @@ namespace BrzSaleWebApp.Areas.Identity.Pages.Account
 {
     public class ConfirmEmailModel : PageModel
     {
-        private readonly UserManager<BrzSaleWebAppUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public ConfirmEmailModel(UserManager<BrzSaleWebAppUser> userManager)
+        public ConfirmEmailModel(UserManager<ApplicationUser> userManager)
         {
             _userManager = userManager;
         }

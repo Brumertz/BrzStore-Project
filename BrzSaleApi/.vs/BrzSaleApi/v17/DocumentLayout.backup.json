@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsaleapi\\brzsaleapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{59AE2E53-65B5-453D-876D-89BB847FDA95}|BrzSaleApi\\BrzSaleApi.csproj|solutionrelative:brzsaleapi\\brzsaleapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\areas\\identity\\pages\\account\\manage\\showrecoverycodes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\areas\\identity\\pages\\account\\manage\\showrecoverycodes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\areas\\identity\\pages\\account\\manage\\disable2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\areas\\identity\\pages\\account\\manage\\disable2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|c:\\users\\brumertztafe\\documents\\brzstore\\1pjapi\\brzstore-project\\brzsaleapi\\brzsalewebapp\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F93E076-7A74-4540-82EF-E7DEEB40C234}|BrzSaleWebApp\\BrzSaleWebApp.csproj|solutionrelative:brzsalewebapp\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,54 +54,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BrzSaleApi",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\BrzSaleApi.csproj",
-              "RelativeDocumentMoniker": "BrzSaleApi\\BrzSaleApi.csproj",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleApi\\BrzSaleApi.csproj",
-              "RelativeToolTip": "BrzSaleApi\\BrzSaleApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-15T14:58:27.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "BrzSaleWebApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\appsettings.json",
-              "RelativeToolTip": "BrzSaleWebApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-15T12:45:04.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Program.cs",
               "RelativeDocumentMoniker": "BrzSaleWebApp\\Program.cs",
               "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Program.cs",
               "RelativeToolTip": "BrzSaleWebApp\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAmwEoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwGYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:43:25.53Z",
+              "WhenOpened": "2025-04-28T18:27:06.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:26:22.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "BrzSaleWebApp\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "BrzSaleWebApp\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "BrzSaleWebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "BrzSaleWebApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T18:25:29.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowRecoveryCodes.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml.cs",
+              "RelativeDocumentMoniker": "BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml.cs",
+              "RelativeToolTip": "BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:42:14.612Z",
+              "WhenOpened": "2025-04-28T18:22:21.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Disable2fa.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "RelativeDocumentMoniker": "BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "RelativeToolTip": "BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:22:00.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Email.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeDocumentMoniker": "BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeToolTip": "BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAQwKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:20:28.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Documents\\BrzStore\\1pjApi\\BrzStore-Project\\BrzSaleApi\\BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "BrzSaleWebApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:16:51.479Z",
               "EditorCaption": ""
             }
           ]
