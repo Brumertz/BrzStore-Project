@@ -61,7 +61,7 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(builder =>
     {
         builder
-            .WithOrigins("https://localhost:7183", "http://localhost:5000")
+            .WithOrigins("https://localhost:7047")
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
@@ -95,9 +95,12 @@ else
     app.UseHsts();
 }
 
+
 app.UseHttpsRedirection();
+app.UseRouting();
+app.UseCors();          // CORS BEFORE Authorization
+app.UseAuthentication();
 app.UseAuthorization();
-app.UseCors();
 app.MapControllers();
 
 app.Run();

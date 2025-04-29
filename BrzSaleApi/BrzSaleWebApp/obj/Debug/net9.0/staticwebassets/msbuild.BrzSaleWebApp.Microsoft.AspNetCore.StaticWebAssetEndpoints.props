@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BrzSaleWebApp.uaqqrr2p86.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WlEn6SpreLrwhifBNsDwdBtHP522\u002BmTCyriAihL5bos="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WlEn6SpreLrwhifBNsDwdBtHP522\u002BmTCyriAihL5bos=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 18:29:31 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WlEn6SpreLrwhifBNsDwdBtHP522\u002BmTCyriAihL5bos=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 15:28:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BrzSaleWebApp/BrzSaleWebApp.uaqqrr2p86.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BrzSaleWebApp.uaqqrr2p86.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uaqqrr2p86"},{"Name":"integrity","Value":"sha256-WlEn6SpreLrwhifBNsDwdBtHP522\u002BmTCyriAihL5bos="},{"Name":"label","Value":"_content/BrzSaleWebApp/BrzSaleWebApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WlEn6SpreLrwhifBNsDwdBtHP522\u002BmTCyriAihL5bos=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 18:29:31 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WlEn6SpreLrwhifBNsDwdBtHP522\u002BmTCyriAihL5bos=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 15:28:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BrzSaleWebApp/css/site.b9sayid5wm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

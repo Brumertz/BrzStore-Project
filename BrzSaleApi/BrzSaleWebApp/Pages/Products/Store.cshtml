@@ -1,0 +1,49 @@
+﻿@page
+@model BrzSaleWebApp.Pages.Products.StoreModel
+@{
+    ViewData["Title"] = "Shop";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Our Products</h2>
+    <div id="products-container" class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Product cards will be injected here -->
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    fetch("https://localhost:7069/api/v1.0/Products") // Adjust to your API endpoint
+        .then(response => response.json())
+        .then(products => renderProducts(products))
+        .catch(err => console.error("Failed to load products", err));
+
+    function renderProducts(products) {
+        const container = document.getElementById("products-container");
+
+        products.forEach(product => {
+            const card = document.createElement("div");
+            card.className = "col";
+
+            card.innerHTML = `
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">${product.brand} - ${product.model}</h5>
+                        <p class="card-text">
+                            <strong>Price:</strong> $${product.price}<br/>
+                            <strong>Year:</strong> ${product.year}<br/>
+                            <strong>Engine:</strong> ${product.engineSize}cc
+                        </p>
+                    </div>
+                    <div class="card-footer text-end">
+                        ${product.onSale ? '<span class="badge bg-success">On Sale</span>' : ''}
+                    </div>
+                </div>
+            `;
+            container.appendChild(card);
+        });
+    }
+</script>
+}
+
+

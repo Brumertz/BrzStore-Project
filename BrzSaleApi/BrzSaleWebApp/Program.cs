@@ -5,7 +5,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using BrzSaleWebApp.Models; // Ensure this namespace contains your ApplicationUser class
+using BrzSaleWebApp.Models;
+using Microsoft.AspNetCore.Identity.UI.Services;
+// Ensure this namespace contains your ApplicationUser class
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -55,7 +57,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             IssuerSigningKey = new SymmetricSecurityKey(key)
         };
     });
-
+// Register a Fake EmailSender
+builder.Services.AddTransient<IEmailSender, BrzSaleWebApp.Services.FakeEmailSender>();
 // Configure Razor Pages and Identity Cookie settings
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -78,11 +81,21 @@ builder.Services.AddVersionedApiExplorer(options =>
     options.GroupNameFormat = "'v'VVV";
     options.SubstituteApiVersionInUrl = true;
 });
-
 builder.Services.AddRazorPages();
 builder.Services.AddControllers();
 
+builder.Services.AddRazorPages();
+builder.Services.AddControllers();
+builder.Services.AddHttpClient();
 var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
