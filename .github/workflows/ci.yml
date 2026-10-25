@@ -1,0 +1,36 @@
+name: BrtzStore CI Pipeline
+
+# Trigger workflow on pushes and pull requests to main
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    name: Build & Run Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repository code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up .NET 9 SDK
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      # Step 3: Restore dependencies
+      - name: Restore dependencies
+        run: dotnet restore BrzSaleApi/BrzSaleApi.sln
+
+      # Step 4: Build solution in Release configuration
+      - name: Build solution
+        run: dotnet build BrzSaleApi/BrzSaleApi.sln --configuration Release --no-restore
+
+      # Step 5: Execute unit tests
+      - name: Execute unit tests
+        run: dotnet test BrzSaleApi/BrzSaleApi.Tests/BrzSaleApi.Tests.csproj --configuration Release --no-build --verbosity normal --logger "trx;LogFileName=test_results.trx"
