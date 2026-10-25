@@ -1,4 +1,4 @@
-using AspNetCore.Identity.MongoDbCore.Extensions;
+﻿using AspNetCore.Identity.MongoDbCore.Extensions;
 using AspNetCore.Identity.MongoDbCore.Infrastructure;
 using AspNetCore.Identity.MongoDbCore.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -7,26 +7,27 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using BrzSaleWebApp.Models;
 using Microsoft.AspNetCore.Identity.UI.Services;
-// Ensure this namespace contains your ApplicationUser class
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Load MongoDB settings from appsettings.json
-var mongoSettings = builder.Configuration.GetSection("MongoDBSettings").Get<MongoDbSettings>();
+// Load MongoDB settings from appsettings.json with fallback defaults
+var mongoSettings = builder.Configuration.GetSection("MongoDBSettings").Get<MongoDbSettings>() 
+    ?? new MongoDbSettings();
+
+var connectionString = mongoSettings.ConnectionString ?? "mongodb://localhost:27017";
+var databaseName = mongoSettings.DatabaseName ?? "BrzSaleApiDb";
 
 // Configure MongoDB settings for Identity
 builder.Services.Configure<MongoDbSettings>(options =>
 {
-    options.ConnectionString = mongoSettings.ConnectionString;
-    options.DatabaseName = mongoSettings.DatabaseName;
+    options.ConnectionString = connectionString;
+    options.DatabaseName = databaseName;
 });
 
-// Add Identity services using ApplicationUser. If you are not using roles,
-// replace MongoIdentityRole with IdentityRole (from Microsoft.AspNetCore.Identity)
-// and adjust the AddMongoDbStores accordingly.
+// Add Identity services using ApplicationUser and MongoDB store
 builder.Services.AddIdentity<ApplicationUser, MongoIdentityRole>(options =>
 {
-    // Password settings configuration
+    // Password requirements configuration
     options.Password.RequireDigit = true;
     options.Password.RequiredLength = 6;
     options.Password.RequireNonAlphanumeric = false;
@@ -38,27 +39,35 @@ builder.Services.AddIdentity<ApplicationUser, MongoIdentityRole>(options =>
     options.User.RequireUniqueEmail = true;
 })
 .AddMongoDbStores<ApplicationUser, MongoIdentityRole, Guid>(
-    mongoSettings.ConnectionString,
-    mongoSettings.DatabaseName
+    connectionString,
+    databaseName
 )
 .AddDefaultTokenProviders();
 
-// Configure JWT Authentication
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
+// Configure authentication: preserve Identity Application Cookie as default scheme for web pages, while supporting JWT
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = IdentityConstants.ApplicationScheme;
+    options.DefaultSignInScheme = IdentityConstants.ApplicationScheme;
+    options.DefaultAuthenticateScheme = IdentityConstants.ApplicationScheme;
+    options.DefaultChallengeScheme = IdentityConstants.ApplicationScheme;
+})
+.AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+{
+    var key = Encoding.UTF8.GetBytes("YourSuperSecureJWTSecretKey");
+    options.TokenValidationParameters = new TokenValidationParameters
     {
-        var key = Encoding.UTF8.GetBytes("YourSuperSecureJWTSecretKey"); // Consider moving this to configuration
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = false,
-            ValidateAudience = false,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(key)
-        };
-    });
-// Register a Fake EmailSender
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key)
+    };
+});
+
+// Register fake email sender for development confirmation emails
 builder.Services.AddTransient<IEmailSender, BrzSaleWebApp.Services.FakeEmailSender>();
+
 // Configure Razor Pages and Identity Cookie settings
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -81,23 +90,14 @@ builder.Services.AddVersionedApiExplorer(options =>
     options.GroupNameFormat = "'v'VVV";
     options.SubstituteApiVersionInUrl = true;
 });
-builder.Services.AddRazorPages();
-builder.Services.AddControllers();
 
 builder.Services.AddRazorPages();
 builder.Services.AddControllers();
 builder.Services.AddHttpClient();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
-}
-
-
-
-// Configure the HTTP request pipeline.
+// Configure HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();

@@ -1,4 +1,4 @@
-using BrzSaleApi.Settings;
+ï»¿using BrzSaleApi.Settings;
 using BrzSaleApi.Data;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using System.Text.Json;
@@ -24,11 +24,10 @@ builder.Services.AddSingleton(sp =>
 {
     var settings = sp.GetRequiredService<IOptions<MongoDBSettings>>().Value;
     var client = sp.GetRequiredService<IMongoClient>();
-    return client.GetDatabase(settings.DatabaseName); // Ensure the correct database name is provided here
+    return client.GetDatabase(settings.DatabaseName);
 });
 
 builder.Services.AddScoped<IMongoDbContext, MongoDbContext>();
-
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -36,7 +35,7 @@ builder.Services.AddControllers()
         options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
     });
 
-// Versioning
+// API Versioning configuration
 builder.Services.AddApiVersioning(options =>
 {
     options.ReportApiVersions = true;
@@ -51,23 +50,24 @@ builder.Services.AddVersionedApiExplorer(options =>
     options.SubstituteApiVersionInUrl = true;
 });
 
-// Swagger
+// Swagger Documentation configuration
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// CORS
+// CORS configuration (allow requests from web frontend)
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
+    options.AddDefaultPolicy(policy =>
     {
-        builder
-            .WithOrigins("https://localhost:7047")
+        policy
+            .AllowAnyOrigin()
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
 });
-// ? SECURITY IMPLEMENTATION — JWT Authentication
-var jwtKey = Encoding.UTF8.GetBytes("YourSuperSecureJWTSecretKey"); // ? Change this to a secure key!
+
+// Security implementation - JWT Authentication
+var jwtKey = Encoding.UTF8.GetBytes("YourSuperSecureJWTSecretKey");
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -83,8 +83,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 var app = builder.Build();
 
-
-// Middleware
+// Middleware pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -95,12 +94,14 @@ else
     app.UseHsts();
 }
 
-
 app.UseHttpsRedirection();
 app.UseRouting();
-app.UseCors();          // CORS BEFORE Authorization
+app.UseCors();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+// Redirect root path to Swagger UI
+app.MapGet("/", () => Results.Redirect("/swagger"));
 
 app.Run();

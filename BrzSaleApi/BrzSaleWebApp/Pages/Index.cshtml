@@ -1,10 +1,52 @@
-﻿@page
+@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome To BrzStore</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="py-5 text-center bg-light rounded-3 shadow-sm my-4 border">
+    <div class="container py-4">
+        <h1 class="display-4 fw-bold text-primary">Bienvenido a BrtzStore</h1>
+        <p class="lead col-md-8 mx-auto text-secondary">
+            Sistema de gestión y catálogo conectado a la API REST (MongoDB + ASP.NET Core).
+        </p>
+        <div class="d-flex justify-content-center gap-3 mt-4">
+            <a asp-page="/Products/Store" class="btn btn-primary btn-lg px-4 gap-3 shadow-sm">
+                🚗 Ver Catálogo & Gestión de Productos
+            </a>
+            <a href="https://localhost:7069/swagger" target="_blank" class="btn btn-outline-secondary btn-lg px-4">
+                📑 Documentación Swagger (API)
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4 py-3">
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 p-3">
+            <div class="card-body">
+                <h5 class="card-title fw-bold text-dark">📦 Gestión de Productos</h5>
+                <p class="card-text text-muted">Crea, edita y elimina productos (marca, modelo, año, precio, motor) en tiempo real consumiendo la API.</p>
+                <a asp-page="/Products/Store" class="btn btn-sm btn-outline-primary">Ir a Productos &rarr;</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 p-3">
+            <div class="card-body">
+                <h5 class="card-title fw-bold text-dark">🔐 Autenticación Identity</h5>
+                <p class="card-text text-muted">Manejo de cuentas de usuario, registro, inicio de sesión y tokens JWT integrados con MongoDB.</p>
+                <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-sm btn-outline-secondary">Iniciar Sesión &rarr;</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 p-3">
+            <div class="card-body">
+                <h5 class="card-title fw-bold text-dark">⚡ API RESTful v1.0</h5>
+                <p class="card-text text-muted">Controladores versionados con filtrado por precio, paginación, ordenamiento y persistencia en MongoDB.</p>
+                <a href="https://localhost:7069/swagger" target="_blank" class="btn btn-sm btn-outline-secondary">Ver Swagger &rarr;</a>
+            </div>
+        </div>
+    </div>
 </div>
