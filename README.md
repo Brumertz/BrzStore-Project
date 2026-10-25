@@ -6,7 +6,7 @@ A full-stack e-commerce web application and RESTful API built with **.NET 9**, *
 
 ## 📌 Architecture Overview
 
-The solution consists of two primary projects:
+The solution consists of three primary projects:
 
 1. **`BrzSaleApi`** (Backend REST API)
    * ASP.NET Core Web API with API Versioning (`v1.0` and `v2.0`).
@@ -17,9 +17,15 @@ The solution consists of two primary projects:
 
 2. **`BrzSaleWebApp`** (Frontend Web Application - BrtzStore)
    * ASP.NET Core Razor Pages with Bootstrap 5 responsive layout.
-   * **Authentication:** ASP.NET Core Identity with MongoDB persistence (`AspNetCore.Identity.MongoDbCore`).
-   * **Store Dashboard:** Interactive Product Management interface (Card view & Table CRUD view) directly connected to the REST API.
-   * **Sample Seeder:** One-click demo data population for testing.
+   * **Authentication & Authorization:** ASP.NET Core Identity with MongoDB persistence (`AspNetCore.Identity.MongoDbCore`).
+   * **Role & Session-Based Access Control:**
+     * **Guests (Unauthenticated):** Read-only mode to browse the product catalog and view cards.
+     * **Authenticated Users:** Full management capabilities — Create, Edit, Delete products, Table CRUD view, and sample data population.
+   * **Sample Seeder:** One-click demo data population for testing (restricted to logged-in users).
+
+3. **`BrzSaleApi.Tests`** (Unit Testing Suite)
+   * Built with **xUnit**, **Moq**, and **Microsoft.AspNetCore.Mvc.Testing**.
+   * Covers model validation (`ProductModelTests`) and controller endpoints (`ProductsControllerTests`).
 
 ---
 
@@ -64,11 +70,32 @@ dotnet run --project BrzSaleApi\BrzSaleWebApp
 
 ---
 
+## 🧪 Testing & CI/CD
+
+### Running Unit Tests Locally
+
+Execute all unit tests across the solution:
+
+```powershell
+dotnet test BrzSaleApi\BrzSaleApi.sln
+```
+
+### Continuous Integration (GitHub Actions)
+
+A CI workflow is configured in [`.github/workflows/ci.yml`](.github/workflows/ci.yml) that triggers automatically on every `push` and `pull_request` to the `main` branch:
+* Checks out repository code.
+* Sets up .NET 9 SDK.
+* Restores all NuGet dependencies.
+* Builds the solution in `Release` configuration.
+* Executes the complete test suite.
+
+---
+
 ## 🌐 Application URLs
 
 | Service | Protocol | URL | Description |
 | :--- | :--- | :--- | :--- |
-| **BrtzStore Web App** | HTTPS | [https://localhost:7047](https://localhost:7047) | Main store frontend & product management |
+| **BrtzStore Web App** | HTTPS | [https://localhost:7047](https://localhost:7047) | Main store frontend & product catalog |
 | **BrtzStore Web App** | HTTP | `http://localhost:5086` | Alternative HTTP port |
 | **BrzSaleApi Swagger** | HTTPS | [https://localhost:7069/swagger](https://localhost:7069/swagger) | Interactive API documentation & testing |
 | **BrzSaleApi Root** | HTTPS | [https://localhost:7069/](https://localhost:7069/) | Automatically redirects to `/swagger` |
@@ -88,11 +115,12 @@ dotnet run --project BrzSaleApi\BrzSaleWebApp
 
 ---
 
-## 🔒 Security & Credentials
+## 🔒 Security & Access Control
 
+* **Catalog Permissions:** Unauthenticated guests can view the product catalog in read-only mode. All write actions (Add, Edit, Delete, Seed data) require an active user session.
 * **HTTPS Developer Certificates:** If prompted for SSL trust, run:
   ```powershell
   dotnet dev-certs https --trust
   ```
-* **Identity Management:** User registration and password hashing handled through ASP.NET Core Identity with MongoDB document store.
-* **Sensitive Files:** Temporary compilation files, binaries (`bin/`, `obj/`), user settings (`*.user`), and environment variables are ignored via `.gitignore`.
+* **Identity Management:** User registration, password hashing, and cookie session authentication handled through ASP.NET Core Identity with MongoDB document store.
+* **Sensitive Files:** Temporary compilation files, binaries (`bin/`, `obj/`), user settings (`*.user`), and environment variables are excluded via `.gitignore`.
